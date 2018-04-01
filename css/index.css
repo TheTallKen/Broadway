@@ -1,4 +1,21 @@
 body {
   text-align: center;
-  background:
+  font-family: helvetica;
+}
+
+h1 {
+  font-family: helvetica;
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+
+p.navigation {
+  font-family: helvetica;
+  font-size: 18px;
+  color: white;
+}
+
+.process {
+  background-color: white;
 }
