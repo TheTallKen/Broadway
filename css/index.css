@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  center: horizontal;
   font-family: helvetica;
 }
 
@@ -10,14 +11,21 @@ h1 {
   color: white;
 }
 
-p.navigation {
+.title {
   font-family: helvetica;
   font-size: 18px;
   color: white;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .process {
   background-color: white;
+}
+
+p.process {
+  font-family: helvetica;
+  font-size: 14px;
 }
 
 h2 {
@@ -25,6 +33,12 @@ h2 {
   font-size: 32px;
   font-weight: bold;
   color: white;
+}
+
+h3 {
+  font-family: helvetica;
+  font-size: 23px;
+  font-weight: bold;
 }
 
 .portfolio {
@@ -36,4 +50,5 @@ h2 {
   font-family: helvetica;
   font-size: 11px;
   color: white;
+  text-align: left;
 }
